@@ -78,6 +78,38 @@
       </div>
     </section>
 
+    <section class="section tennis-section">
+      <div class="tennis-header">
+        <div>
+          <h2 class="section-title">Tennis break</h2>
+          <p>
+            A quick rally to keep the energy up between strategy sessions.
+            Move the paddle with your mouse, touch, or A/D keys.
+          </p>
+        </div>
+        <div class="tennis-scoreboard">
+          <div>
+            <span>Clients</span>
+            <strong id="playerScore">0</strong>
+          </div>
+          <div>
+            <span>Northwind</span>
+            <strong id="cpuScore">0</strong>
+          </div>
+          <button class="btn btn-secondary" id="tennisReset" type="button">Reset</button>
+        </div>
+      </div>
+      <div class="tennis-card">
+        <canvas id="tennisGame" width="640" height="360">
+          Your browser does not support the canvas element.
+        </canvas>
+        <div class="tennis-footer">
+          <span class="tennis-status" id="tennisStatus">First to 7 wins. Serve starts automatically.</span>
+          <span class="tennis-hint">Tip: Aim the ball by hitting off-center.</span>
+        </div>
+      </div>
+    </section>
+
     <section class="section grid-2">
       <div class="quote">
         <h2>"The Northwind team helped us turn chaos into a repeatable system."</h2>
