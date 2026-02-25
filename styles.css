@@ -22,6 +22,7 @@ body {
   font-family: 'Space Grotesk', sans-serif;
   color: var(--ink);
   background: radial-gradient(circle at 10% 10%, #ffffff 0%, #f7f1e7 40%, #f1e7da 100%);
+  line-height: 1.5;
   min-height: 100vh;
 }
 
